@@ -9,6 +9,7 @@ variable "default_capacity_provider_name" {
 }
 variable "capacity_provider_weight" {
   type = number
+  default = 1
 }
 //variable "naming_suffix" {
 //  type = string
